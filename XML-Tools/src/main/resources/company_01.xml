@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <name>Tech Solutions Inc.</name>
+    <address>
+        <street>123 Technology St</street>
+        <city>Innovate City</city>
+        <postalCode>123456</postalCode>
+        <country>Fictionland</country>
+    </address>
+    <departments>
+        <department>
+            <name>Research and Development</name>
+            <employees>
+                <employee>
+                    <firstName>John</firstName>
+                    <lastName>Doe</lastName>
+                    <position>Developer</position>
+                    <salary>75000.00</salary>
+                </employee>
+                <employee>
+                    <firstName>Jane</firstName>
+                    <lastName>Smith</lastName>
+                    <position>Scientist</position>
+                    <salary>80000.00</salary>
+                </employee>
+            </employees>
+        </department>
+        <department>
+            <name>Human Resources</name>
+            <employees>
+                <employee>
+                    <firstName>James</firstName>
+                    <lastName>Johnson</lastName>
+                    <position>HR Manager</position>
+                    <salary>65000.00</salary>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</company>
