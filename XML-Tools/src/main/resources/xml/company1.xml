@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <name>Tech Solutions Inc.</name>
+    <address>
+        <street>123 Example St</street>
+        <city>Sample City</city>
+        <postalCode>123456</postalCode>
+        <country>Wonderland</country>
+    </address>
+    <departments>
+        <department>
+            <name>Research and Development</name>
+            <employees>
+                <employee>
+                    <firstName>John68</firstName>
+                    <lastName>Doe60</lastName>
+                    <position>Developer</position>
+                    <salary>76382.00</salary>
+                </employee>
+                <employee>
+                    <firstName>John80</firstName>
+                    <lastName>Doe27</lastName>
+                    <position>Developer</position>
+                    <salary>75884.00</salary>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</company>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <name>NextGen Pioneers</name>
+    <address>
+        <street>123 Example St</street>
+        <city>Sample City</city>
+        <postalCode>123456</postalCode>
+        <country>Wonderland</country>
+    </address>
+    <departments>
+        <department>
+            <name>Research and Development</name>
+            <employees>
+                <employee>
+                    <firstName>John44</firstName>
+                    <lastName>Doe3</lastName>
+                    <position>Developer</position>
+                    <salary>79017.00</salary>
+                </employee>
+                <employee>
+                    <firstName>John8</firstName>
+                    <lastName>Doe26</lastName>
+                    <position>Developer</position>
+                    <salary>76472.00</salary>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</company>

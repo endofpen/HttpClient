@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <name>Future Vision Corp.</name>
+    <address>
+        <street>123 Example St</street>
+        <city>Sample City</city>
+        <postalCode>123456</postalCode>
+        <country>Wonderland</country>
+    </address>
+    <departments>
+        <department>
+            <name>Research and Development</name>
+            <employees>
+                <employee>
+                    <firstName>John29</firstName>
+                    <lastName>Doe49</lastName>
+                    <position>Developer</position>
+                    <salary>76077.00</salary>
+                </employee>
+                <employee>
+                    <firstName>John37</firstName>
+                    <lastName>Doe93</lastName>
+                    <position>Developer</position>
+                    <salary>77614.00</salary>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</company>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<company>
+    <name>Dynamic Synergies</name>
+    <address>
+        <street>123 Example St</street>
+        <city>Sample City</city>
+        <postalCode>123456</postalCode>
+        <country>Wonderland</country>
+    </address>
+    <departments>
+        <department>
+            <name>Research and Development</name>
+            <employees>
+                <employee>
+                    <firstName>John4</firstName>
+                    <lastName>Doe3</lastName>
+                    <position>Developer</position>
+                    <salary>78850.00</salary>
+                </employee>
+                <employee>
+                    <firstName>John73</firstName>
+                    <lastName>Doe72</lastName>
+                    <position>Developer</position>
+                    <salary>77711.00</salary>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</company>
