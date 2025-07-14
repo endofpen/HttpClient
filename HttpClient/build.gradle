@@ -1,0 +1,36 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '2.2.0'
+    // Required for Moshi codegen
+    id 'com.google.devtools.ksp' version '2.2.0-2.0.2'
+}
+
+group = 'org.services.reader'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+    // Retrofit für die API-Kommunikation
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // Moshi für JSON Verarbeitung
+    implementation("com.squareup.moshi:moshi:1.15.0")
+    implementation("com.squareup.moshi:moshi-kotlin:1.15.0")
+    ksp("com.squareup.moshi:moshi-kotlin-codegen:1.15.0")
+    // Moshi Converter für Retrofit
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    // OkHttp Logging Interceptor zur Anzeige von Request-Details
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    // Coroutines für asynchrone Programmierung
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+kotlin {
+    jvmToolchain(11)
+}
